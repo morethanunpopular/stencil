@@ -2,7 +2,7 @@
 Stencil is a daemon written in Ruby that queries Consul's health API for changes in the health status of services, and uses ERB templates to generate new config files. 
 
 # Why write this?
-There are Daemon's that are part of supported open source projects that already have this basic functionality, however almost all of them are written in Go, a few are in Python. If you are a Puppet shop with skills already developed around ERB, it is most operable continue to use ERB. As supporting ERB in another language amounts to reimplementing the Ruby interpretter, so it males sense to write a daemon in Ruby for this purpose.
+There are Daemon's that are part of supported open source projects that already have this basic functionality, however almost all of them are written in Go, a few are in Python. If you are a Puppet shop with skills already developed around ERB, it is most operable to continue to use ERB. As supporting ERB in another language amounts to reimplementing the Ruby interpretter, it makes sense to write a daemon in Ruby for this purpose.
 
 # Installation
 - Clone this repo
